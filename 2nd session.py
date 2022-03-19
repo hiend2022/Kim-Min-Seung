@@ -30,7 +30,7 @@ raw_text = """러시아군이 11일(현지시간) 우크라이나 서부 도시�
 
 nouns = okt.nouns(raw_text)
 count = Counter(nouns)
-noun_list = count.most_common(10) #가장 많이 등장하는 단어들을 100개 이내로 리스트에 담아줌
+noun_list = count.most_common(10) #가장 많이 등장하는 단어들을 10개 이내로 리스트에 담아줌
 for noun_freq in noun_list:
     print(noun_freq)
 
